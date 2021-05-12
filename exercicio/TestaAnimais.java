@@ -15,7 +15,7 @@ public class TestaAnimais {
 		
 		System.out.println("Nome do cachorro: " + dog.getNome());
 		System.out.println("Idade: " + dog.getIdade() + " anos");
-		dog.correr();
+		dog.acao();
 		
 		
 		
@@ -28,7 +28,7 @@ public class TestaAnimais {
 		
 		System.out.println("Nome do cavalo: " + calavo.getNome());
 		System.out.println("Idade: " + calavo.getIdade() + " anos");
-		calavo.correr();
+		calavo.acao();
 		
 		eu.setNome("Cavalo");
 		eu.setIdade(2);
@@ -38,7 +38,7 @@ public class TestaAnimais {
 		
 		System.out.println("Nome da preguiça: " + eu.getNome());
 		System.out.println("Idade: " + eu.getIdade() + " anos");
-		eu.lento();
+		eu.acao();
 		
 		
 

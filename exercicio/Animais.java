@@ -1,6 +1,6 @@
 package br.com.exercicio;
 
-public class Animais {
+public class Animais implements InterfaceAnimais{
 	
 	private String nome;
 	private int idade;
@@ -18,8 +18,13 @@ public class Animais {
 		this.idade = idade;
 	}
 	
-	void som(String som) {
+	public void som(String som) {
 		System.out.println(som);
+	}
+	
+	@Override
+	public void acao() {
+		
 	}
 	
 

@@ -2,7 +2,7 @@ package br.com.exercicio;
 
 public class Cachorro extends Animais{
 
-	void correr() {
+	public void acao() {
 		System.out.println("O animal está correndo");
 	}
 }
